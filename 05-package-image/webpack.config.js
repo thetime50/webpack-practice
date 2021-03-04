@@ -39,6 +39,9 @@ module.exports = {
             {
                 test: /\.html$/,//匹配文件 commonjs module 引入模块
                 loader: 'html-loader',
+                options: {
+                    esModule: false
+                }
             },
         ],
     },
