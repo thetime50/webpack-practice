@@ -1,0 +1,37 @@
+{
+  "id": "2407636",
+  "name": "webpack",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "webpack test",
+  "glyphs": [
+    {
+      "icon_id": "20224777",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "20224780",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "20224781",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "20224782",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
