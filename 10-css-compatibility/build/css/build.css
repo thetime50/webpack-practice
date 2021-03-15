@@ -1,0 +1,12 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: #faf;
+    display: -webkit-flex;
+    display: flex;
+}
+.box2{
+    width: 120px;
+    height: 80px;
+    background-color: #caf;
+}
