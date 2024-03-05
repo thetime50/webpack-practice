@@ -1,0 +1,28 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "webpack debug",
+            "skipFiles": [
+                // "<node_internals>/**"
+            ],
+            "runtimeExecutable": "node",
+            // "runtimeArgs": ["--inspect-brk=5858","./node_modules/.bin/webpack","--config","${workspaceFolder}\\05-package-image\\webpack.config.js"],
+            "runtimeArgs": ["./node_modules/webpack/bin/webpack.js","--config","${workspaceFolder}\\05-package-image\\webpack.config.js"],
+            "program": "./node_modules/webpack/bin/webpack.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "webpack debug npm port",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": ["run", "build"],
+            "port": 5858
+        }
+    ]
+}
